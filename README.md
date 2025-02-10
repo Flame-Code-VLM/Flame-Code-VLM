@@ -169,5 +169,8 @@ We welcome contributions from the open-source community to improve Flame’s dat
 2. Create a new branch for your changes.
 3. Submit a pull request with a clear description of your modifications.
 
+## License
+Flame is released under the Apache 2.0 License. See the [LICENSE](LICENSE) file for more details.
+
 ## Acknowledgements
 This project was inspired by recent advancements in large vision-language models and automated front-end development. We acknowledge the contributions of the open-source community and prior research in vision-language modeling and automated code generation.
