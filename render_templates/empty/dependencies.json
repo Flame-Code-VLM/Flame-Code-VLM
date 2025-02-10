@@ -1,0 +1,32 @@
+[
+  {
+    "name": "@mui/material"
+  },
+  {
+    "name": "react",
+    "version": "17"
+  },
+  {
+    "name": "react-horizontal-scrolling-menu"
+  },
+  {
+    "name": "react-loader-spinner"
+  },
+  {
+    "name": "react-router-dom"
+  },
+  {
+    "name": "react-dom",
+    "version": "17"
+  },
+  {
+    "name": "react-scripts",
+    "version": "4"
+  },
+  {
+    "name": "html-webpack-plugin"
+  },
+  {
+    "name": "ajv"
+  }
+]

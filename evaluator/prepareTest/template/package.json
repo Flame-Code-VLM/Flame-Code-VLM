@@ -1,0 +1,37 @@
+{
+  "name": "",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start --watch-options-poll=1000",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "chart.js": "^4.4.7",
+    "html-webpack-plugin": "^5.6.0",
+    "leaflet": "^1.9.4",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1",
+    "react-quill": "^2.0.0",
+    "react-scripts": "^5.0.1",
+    "recharts": "^2.13.0"
+  }
+}

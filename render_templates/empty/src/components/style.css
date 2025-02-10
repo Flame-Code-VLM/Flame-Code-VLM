@@ -1,0 +1,65 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.dashboard .budget-planner,
+.dashboard .expense-tracker,
+.dashboard .savings-goal {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard .budget-planner h2,
+.dashboard .expense-tracker h2,
+.dashboard .savings-goal h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #2c3e50;
+}
+
+.dashboard .budget-planner p,
+.dashboard .expense-tracker p,
+.dashboard .savings-goal p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #34495e;
+}
+
+.dashboard .budget-planner .budget-item,
+.dashboard .expense-tracker .expense-item,
+.dashboard .savings-goal .savings-item {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #34495e;
+}
+
+.dashboard .savings-goal .progress-bar {
+  width: 100%;
+  height: 20px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.dashboard .savings-goal .progress-bar .progress {
+  height: 100%;
+  background-color: #2ecc71;
+}
+
+.dashboard .savings-goal .progress-bar .label {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #34495e;
+}

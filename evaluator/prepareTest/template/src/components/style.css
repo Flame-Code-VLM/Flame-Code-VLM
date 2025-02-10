@@ -1,0 +1,158 @@
+html {
+  font-size: 16px;
+  background-color: #1c1c1c;
+  color: #f0e5c9;
+  font-family: "Lora", serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+.destination-showcase {
+  padding: 20px;
+  background-color: #2e2e2e;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.showcase-item {
+  margin-bottom: 20px;
+  background-color: #383838;
+  padding: 20px;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.showcase-item:hover {
+  transform: scale(1.05);
+}
+
+.booking-form {
+  padding: 20px;
+  background-color: #2e2e2e;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-size: 14px;
+  color: #c8b694;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background-color: #3e3e3e;
+  color: #fff;
+}
+
+.availability-dashboard {
+  padding: 20px;
+  background-color: #2e2e2e;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.availability-item {
+  background-color: #383838;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.availability-item h4 {
+  color: #f1c40f;
+}
+
+.map-container {
+  height: 300px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.map-marker {
+  background-color: #f1c40f;
+  color: #1c1c1c;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.recommendation-carousel {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 20px 0;
+}
+
+.recommendation-item {
+  background-color: #383838;
+  padding: 20px;
+  border-radius: 12px;
+  min-width: 200px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.recommendation-item:hover {
+  transform: scale(1.05);
+}
+
+.chat-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #f1c40f;
+  color: #1c1c1c;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.chat-window {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 300px;
+  background-color: #2e2e2e;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.chat-messages {
+  height: 200px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.chat-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background-color: #3e3e3e;
+  color: #fff;
+}
