@@ -1,7 +1,7 @@
 {
   "name": "open-mmcoder",
   "version": "1.0.0",
-  "description": "## Table of Contents - [Introduction](#introduction) - [Features](#features) - [Installation](#installation) - [Usage](#usage) - [Contributing](#contributing) - [License](#license) - [Acknowledgements](#acknowledgements)",
+  "description": "Flame is an open-source large vision-language model (VLM) designed for front-end code generation",
   "main": "index.js",
   "dependencies": {
     "@babel/parser": "^7.26.7",
