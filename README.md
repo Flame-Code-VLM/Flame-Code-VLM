@@ -181,7 +181,8 @@ then run the following command:
 bash scripts/run_batch_variation_with_code.sh
 ```
 
-### Training
+### Modeling & Training 
+We build Flame by connecting the Siglip Vision Encoder and the deepseek-coder models with a 2-layer MLP. This repository includes a modified version of the modeling implementation (Flame-Code-VLM/model) based on LLaVA-VL/LLaVA-NeXT [https://github.com/LLaVA-VL/LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT). To use it, simply replace the corresponding code files in the original repository with those from this repo.
 
 ### Evaluation
 To evaluate the model, you can first generate codes with the model using the following command:
