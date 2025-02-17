@@ -4,6 +4,7 @@
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Dataset](#dataset)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
@@ -162,6 +163,34 @@ bash scripts/run_batch_variation_with_code.sh
 ### Training
 
 ### Evaluation
+To evaluate the model, you can first generate codes with the model using the following command:
+
+After the code generation, you can then render those code and get the screenshots by first specify the parameters in the _batch_eval_renderer.sh_ script:
+```sh
+GEN_CODE_DIR="<DIR_OF_GENERATED_CODE>"
+SCREENSHOT_DIR="<DIR_TO_SAVE_SCREENSHOTS>"
+```
+
+Then run the following command:
+```sh
+bash scripts/batch_eval_renderer_run.sh
+```
+
+Finally, get the pass@k score by first add your model names in _eval_score.sh_:
+```sh
+MODEL_NAMES=("name of models to evaluate")
+```
+Then run:
+```sh
+bash scripts/eval_score_run.sh
+```
+
+## Dataset
+We have opensourced our datasets constructed with our data collection and synthesis methods, as well as our test dataset used for evaluation:
+- Flame-Waterfall-React: <https://huggingface.co/datasets/Flame-Code-VLM/Flame-Waterfall-React>
+- Flame-Additive-React: <https://huggingface.co/datasets/Flame-Code-VLM/Flame-Additive-React>
+- Flame-Evo-React: <https://huggingface.co/datasets/Flame-Code-VLM/Flame-Evo-React>
+- Flame-Eval-React: <https://huggingface.co/datasets/Flame-Code-VLM/Flame-Eval-React>
 
 ## Contributing
 We welcome contributions from the open-source community to improve Flame’s dataset, model, and evaluation pipeline. If you're interested in contributing, please follow these steps:
