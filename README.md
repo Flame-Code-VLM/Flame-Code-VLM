@@ -18,9 +18,22 @@
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
-Flame is an open-source large vision-language model (VLM) designed for front-end code generation. It aims to bridge the gap between UI design mockups and executable front-end code by leveraging multimodal learning techniques. This repository contains the full implementation of Flame’s data preparation pipeline, training procedure, and evaluation pipeline. Through a combination of automated data synthesis, training, and benchmarking, Flame achieves state-of-the-art performance in vision-to-code tasks, particularly for React-based development.
+State-of-the-art (SOTA) models like GPT-4o, though powerful in generating code for webpage creation, remain unsuitable for modern front-end (FE) workflows. Their outputs are often static, lacking modularity, reusability, and dynamic behavior—essential characteristics for scalable and interactive user interfaces. As a result, these models generate inefficient and incompatible code that deviates from established development practices.
+
+To further enhance the power of vision-language models (VLMs) in front-end (FE) development, we introduce Flame, a complete framework that encompasses a data preparation pipeline, model training process, and evaluation suite, creating a fully integrated VLM solution for front-end code generation.
+
+A major challenge in developing a strong large-scale VLM for front-end code generation is the scarcity of high-quality image-text data. To address this, we propose an automated pipeline that extracts, renders, and annotates self-contained front-end code snippets. This pipeline ensures the creation of large-scale, diverse, and high-fidelity training datasets.
+
+To benchmark Flame’s performance, we established a comprehensive evaluation suite that measures syntactic precision, functional correctness, and visual consistency in generated FE code. This ensures that Flame produces code that aligns with real-world development requirements.
+
+Currently, our framework is designed and tested for React-based development, leveraging its component-based architecture for structured and reusable UI generation. However, the methodology and pipeline are highly extensible and can be adapted to other front-end frameworks, such as Vue and Angular, with minimal modifications.
+
+This repository provides the full implementation of Flame’s data preparation pipeline, model training process, and evaluation pipeline, making it a valuable resource for advancing multimodal front-end code generation research.
 
 ## Features
+
+![image not found](./assets/data-pipeline-augmentation.png)
+
 - Comprehensive Data Preparation Pipeline: The repository includes scripts and tools for extracting, synthesizing, and structuring multimodal datasets using three distinct data synthesis methods:
     - Evolution-Based Synthesis
     - Waterfall-Model-Based Synthesis
