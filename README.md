@@ -1,6 +1,8 @@
-# Flame: a large vision language model for front-end code generation
+<h1 align="center">Flame: a large vision language model for front-end code generation</h1>
 
-[English](README.md) | [中文](README_zh.md)
+<p align="center">
+  <a href="README.md">English</a> | <a href="README_zh.md">中文</a>
+</p>
 
 - [Introduction](#introduction)
 - [Features](#features)

@@ -1,6 +1,8 @@
-# Flame: 用于前端代码生成的大型视觉语言模型
+<h1 align="center">Flame: 用于前端代码生成的大型视觉语言模型</h1>
 
-[English](README.md) | [中文](README_zh.md)
+<p align="center">
+  <a href="README.md">English</a> | <a href="README_zh.md">中文</a>
+</p>
 
 - [介绍](#介绍)
 - [特性](#特性)
