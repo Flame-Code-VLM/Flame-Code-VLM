@@ -18,7 +18,7 @@
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
-Flame is an open-source large vision-language model (VLM) designed for front-end code generation. It aims to bridge the gap between UI design mockups and executable front-end code by leveraging multimodal learning techniques. This repository contains the full implementation of Flame’s data preparation pipeline, training procedure, and evaluation pipeline. Through a combination of automated data synthesis, self-reflective training, and benchmarking, Flame achieves state-of-the-art performance in vision-to-code tasks, particularly for React-based development.
+Flame is an open-source large vision-language model (VLM) designed for front-end code generation. It aims to bridge the gap between UI design mockups and executable front-end code by leveraging multimodal learning techniques. This repository contains the full implementation of Flame’s data preparation pipeline, training procedure, and evaluation pipeline. Through a combination of automated data synthesis, training, and benchmarking, Flame achieves state-of-the-art performance in vision-to-code tasks, particularly for React-based development.
 
 ## Features
 - Comprehensive Data Preparation Pipeline: The repository includes scripts and tools for extracting, synthesizing, and structuring multimodal datasets using three distinct data synthesis methods:
