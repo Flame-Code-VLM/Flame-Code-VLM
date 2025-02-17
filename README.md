@@ -18,17 +18,17 @@
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
-State-of-the-art (SOTA) models like GPT-4o, though powerful in generating code for webpage creation, remain unsuitable for modern front-end (FE) workflows. Their outputs are often static, lacking modularity, reusability, and dynamic behavior—essential characteristics for scalable and interactive user interfaces. As a result, these models generate inefficient and incompatible code that deviates from established development practices.
+State-of-the-art models like GPT-4o, while powerful in generating code for webpage creation, fall short in meeting the dynamic requirements of modern front-end (FE) workflows. The code they generate is often static, lacking essential features like modularity, reusability, and dynamic behavior, which are critical for building scalable, interactive user interfaces. This leads to inefficient and incompatible code that deviates from best development practices.
 
-To further enhance the power of vision-language models (VLMs) in front-end (FE) development, we introduce Flame, a complete framework that encompasses a data preparation pipeline, model training process, and evaluation suite, creating a fully integrated VLM solution for front-end code generation.
+To overcome these limitations, we introduce Flame, a comprehensive framework that includes a data synthesis pipeline, model training process, and evaluation suite, forming a fully integrated vision-language model (VLM) solution for front-end code generation.
 
-A major challenge in developing a strong large-scale VLM for front-end code generation is the scarcity of high-quality image-text data. To address this, we propose an automated pipeline that extracts, renders, and annotates self-contained front-end code snippets. This pipeline ensures the creation of large-scale, diverse, and high-fidelity training datasets.
+One of the primary challenges in developing a robust large-scale VLM for front-end development is the lack of high-quality image-text data. To address this, we propose an automated data synthesis pipeline that extracts, renders, and annotates self-contained front-end code snippets. This pipeline ensures the generation of large, diverse, and high-fidelity datasets, capable of producing both single-image and multi-image inputs, along with detailed image descriptions for improving visual chain-of-thought (CoT) reasoning.
 
-To benchmark Flame’s performance, we established a comprehensive evaluation suite that measures syntactic precision, functional correctness, and visual consistency in generated FE code. This ensures that Flame produces code that aligns with real-world development requirements.
+To evaluate Flame’s performance, we have established a comprehensive evaluation suite that measures three key factors: syntactic precision, functional correctness, and visual consistency in the generated code. This ensures that Flame generates code that aligns with real-world development standards.
 
-Currently, our framework is designed and tested for React-based development, leveraging its component-based architecture for structured and reusable UI generation. However, the methodology and pipeline are highly extensible and can be adapted to other front-end frameworks, such as Vue and Angular, with minimal modifications.
+Currently, the framework is designed and optimized for React-based development, taking advantage of its component-based architecture to produce structured, reusable UI components. However, the methodology and pipeline are highly extensible and can be adapted to other front-end frameworks, such as Vue and Angular, with minimal modifications.
 
-This repository provides the full implementation of Flame’s data preparation pipeline, model training process, and evaluation pipeline, making it a valuable resource for advancing multimodal front-end code generation research.
+This repository provides the full implementation of Flame’s data preparation pipeline, model training process, and evaluation suite, making it an invaluable resource for advancing multimodal front-end code generation research.
 
 ## Features
 
