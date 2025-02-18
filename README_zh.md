@@ -1,4 +1,4 @@
-<h1 align="center">Flame: 用于前端代码生成的大型视觉语言模型</h1>
+<h1 align="center">Flame: 一个基于数据合成提升多模态大模型前端开发能力的解决方案</h1>
 
 <p align="center">
   <a href="README.md">English</a> | <a href="README_zh.md">中文</a>
