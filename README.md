@@ -20,7 +20,7 @@
 ## Introduction
 State-of-the-art models like GPT-4o, while powerful in generating code for webpage creation, fall short in meeting the dynamic requirements of modern front-end (FE) workflows. The code they generate is often static, lacking essential features like modularity, reusability, and dynamic behavior, which are critical for building scalable, interactive user interfaces. This leads to inefficient and incompatible code that deviates from best development practices.
 
-To overcome these limitations, we introduce Flame, a comprehensive framework that includes a data synthesis pipeline, model training process, and evaluation suite, forming a fully integrated vision-language model (VLM) solution for front-end code generation.
+To overcome these limitations, we introduce a comprehensive framework that includes a data synthesis pipeline, model training process, and evaluation suite, forming a fully integrated vision-language model (VLM) solution for front-end code generation. Using this framework, we developed Flame, a front-end language assistant with multimodal expertise, by integrating the Siglip Vision encoder and the Deepseek coder model for React code generation.
 
 One of the primary challenges in developing a robust large-scale VLM for front-end development is the lack of high-quality image-text data. To address this, we propose an automated data synthesis pipeline that extracts, renders, and annotates self-contained front-end code snippets. This pipeline ensures the generation of large, diverse, and high-fidelity datasets, capable of producing both single-image and multi-image inputs, along with detailed image descriptions for improving visual chain-of-thought (CoT) reasoning.
 
