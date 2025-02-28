@@ -9,6 +9,7 @@
 - [安装](#安装)
 - [使用](#使用)
 - [数据集](#数据集)
+- [模型](#模型)
 - [贡献](#贡献)
 - [许可证](#许可证)
 - [致谢](#致谢)
@@ -192,6 +193,10 @@ bash scripts/eval_score_run.sh
 - Flame-Additive-React: <https://huggingface.co/datasets/Flame-Code-VLM/Flame-Additive-React>
 - Flame-Evo-React: <https://huggingface.co/datasets/Flame-Code-VLM/Flame-Evo-React>
 - Flame-Eval-React: <https://huggingface.co/datasets/Flame-Code-VLM/Flame-Eval-React>
+
+## 模型
+- Flame_waterfall_7b: <https://huggingface.co/Flame-Code-VLM/flame_waterfall_7b>
+- Llava-qwen2-7b-ov-flamewaterfall: <https://huggingface.co/Flame-Code-VLM/llava-qwen2-7b-ov-flamewaterfall>
 
 ## 贡献
 我们欢迎开源社区贡献以改进 Flame 的数据集、模型和评估管道。如果您有兴趣贡献，请按照以下步骤操作：
