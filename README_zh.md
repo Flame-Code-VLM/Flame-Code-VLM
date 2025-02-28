@@ -1,5 +1,9 @@
 <h1 align="center">Flame: 一个基于数据合成提升多模态大模型前端开发能力的解决方案</h1>
-
+<div align="center" style="line-height: 1;">
+  <a href="https://huggingface.co/Flame-Code-VLM" target="_blank" style="margin: 2px;">
+    <img alt="Datasets" src="https://img.shields.io/badge/%F0%9F%A4%97%20Datasets-Flame%20Code%20VLM-ffc107?color=ffc107&logoColor=white" style="display: inline-block; vertical-align: middle;"/>
+  </a>
+</div>
 <p align="center">
   <a href="README.md">English</a> | <a href="README_zh.md">中文</a>
 </p>
