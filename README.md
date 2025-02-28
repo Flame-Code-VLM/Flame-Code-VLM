@@ -13,6 +13,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Dataset](#dataset)
+- [Model](#model)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
@@ -213,6 +214,10 @@ We have opensourced our datasets constructed with our data collection and synthe
 - Flame-Additive-React: <https://huggingface.co/datasets/Flame-Code-VLM/Flame-Additive-React>
 - Flame-Evo-React: <https://huggingface.co/datasets/Flame-Code-VLM/Flame-Evo-React>
 - Flame-Eval-React: <https://huggingface.co/datasets/Flame-Code-VLM/Flame-Eval-React>
+
+## Model
+- Flame_waterfall_7b: <https://huggingface.co/Flame-Code-VLM/flame_waterfall_7b>
+- Llava-qwen2-7b-ov-flamewaterfall: <https://huggingface.co/Flame-Code-VLM/llava-qwen2-7b-ov-flamewaterfall>
 
 ## Contributing
 We welcome contributions from the open-source community to improve Flame’s dataset, model, and evaluation pipeline. If you're interested in contributing, please follow these steps:
