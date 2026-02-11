@@ -257,10 +257,11 @@ This project was inspired by recent advancements in large vision-language models
 
 ## Citation
 If Flame is useful for your research, please cite:
+```
 @article{ge2025advancing,
   title={Advancing vision-language models in front-end development via data synthesis},
   author={Ge, Tong and Liu, Yashu and Ye, Jieping and Li, Tianyi and Wang, Chao},
   journal={arXiv preprint arXiv:2503.01619},
   year={2025}
 }
-
+```
